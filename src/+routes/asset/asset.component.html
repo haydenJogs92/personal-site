@@ -1,0 +1,16 @@
+<h2>Asset Details</h2>
+
+<app-asset-details [asset]="asset" [componentState]="ComponentState.AssetDetailsView"></app-asset-details>
+
+<!-- Buy/Sell Asset -->
+<app-update-wallet-form [asset]="asset"></app-update-wallet-form>
+
+<h2>Performance</h2>
+
+<div style="display: block;">
+  <!-- Uses: https://valor-software.com/ng2-charts/#LineChart -->
+  <canvas baseChart width="400" height="400"
+      [data]="lineChartData"
+      [type]="lineChartType">
+  </canvas>
+</div>
