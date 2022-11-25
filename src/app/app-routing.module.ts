@@ -9,6 +9,7 @@ const routes: Routes = [
         path: '',
         loadChildren: () => import('../+routes/home/home.module').then(m => m.HomeModule),
       }
+      // TODO (haydenb) add links to contact us form
     ]
   }       
 ];

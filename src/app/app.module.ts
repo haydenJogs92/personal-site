@@ -5,7 +5,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from '../lib/shared/shared.module';
-import { GlobalInterceptor } from '../lib/global-interceptor';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { FooterComponent } from '../components/footer/footer.component';
@@ -29,13 +28,6 @@ import { MenuBarComponent } from '../components/menu-bar/menu-bar.component';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     })
-  ],
-  providers: [
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: GlobalInterceptor,
-      multi: true
-    }
   ],
   bootstrap: [AppComponent]
 })

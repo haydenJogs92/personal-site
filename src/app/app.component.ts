@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { UserService } from '../services/user/user.service';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +6,9 @@ import { UserService } from '../services/user/user.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'coin-ui';
+  title = 'Hayden Brown';
   year = new Date().getFullYear();
-  userId: number;
   
-  constructor(private us: UserService) {
-    this.userId = this.us.getUserId()
-    console.log('user id', this.userId);
-  }
+  constructor() {}
 
 }
