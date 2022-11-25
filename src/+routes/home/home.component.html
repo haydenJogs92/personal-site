@@ -1,38 +1,28 @@
-<h2>Available Assets</h2>
-
-<!-- Filter results -->
-<p>Filter: ({{displayedAssets.length}})</p>
-<input type="text" [ngModel]="queryFilter"  (ngModelChange)="filterResults($event)"/>
-
-<!-- Sort Results -->
-<div>
-  <!-- First Select Sort By Option -->
-  <form [formGroup]="sortByForm">
-    <p>Sort By:
-      <label><input type="radio" value="priceUsd" formControlName="selectedSortProperty"> Price (USD)</label>
-      <label><input type="radio" value="changePercent24Hr" formControlName="selectedSortProperty"> 24Hr Percent Change</label>
-      <label><input type="radio" value="volumeUsd24Hr" formControlName="selectedSortProperty"> 24Hr Volume</label>
-      <label><input type="radio" value="marketCapUsd" formControlName="selectedSortProperty"> Market Cap</label>
-    </p>
-  </form>
-  <!-- Next Sort By Highest or Lowest -->
-  <ng-container *ngIf="selectedSortByPropertyValue != ''">
-    <button (click)="sortByProperty(selectedSortByPropertyValue)">
-      <ng-container *ngIf="sortProperies[selectedSortByPropertyValue]">Highest To Lowest</ng-container>
-      <ng-container *ngIf="!sortProperies[selectedSortByPropertyValue]">Lowest To Highest</ng-container>
-      <ng-container [ngSwitch]="selectedSortByPropertyValue">
-        <ng-container *ngSwitchCase="'priceUsd'"> Price</ng-container>
-        <ng-container *ngSwitchCase="'changePercent24Hr'"> 24Hr Percent Change</ng-container>
-        <ng-container *ngSwitchCase="'volumeUsd24Hr'"> 24Hr Volume</ng-container>
-        <ng-container *ngSwitchCase="'marketCapUsd'"> Market Cap</ng-container>
-      </ng-container>
-    </button>
-  </ng-container>
-</div>
-
-<div class="divider"></div>
-
-<!-- Display List of Assets -->
-<div *ngFor="let asset of displayedAssets">
-  <app-asset-details [asset]="asset"></app-asset-details>
+<div id="mainContent" class="adjustMarginTop contentWrapper">
+  <div class="row">
+    <div class="mainPageContent textCenter" style="padding:50px 0;">
+      <h1 id="homePageh1">Hi, I'm Hayden.</h1>
+      <p>
+        <img id="profileImage" class="respImage" src="/assets/profile-pic.jpg" />
+      </p>
+      
+      <div style="text-align:left;">
+      <p>I'm a Champaign, IL based developer focused on web apps. You can see my recent work or follow me on <a href="{{gitHubUrl}}">GitHub</a>.</p>
+      
+      <p>I focus on:</p>
+      <ul>
+        <li>Front-End Web Development (JavaScript)</li>
+        <li>Back-End Web Development (Java, NodeJs, Wolfram Language)</li>
+        <li>Mobile App Development (Ionic Framework)</li>
+        <li>Angular & React Apps</li>
+      </ul>
+      
+      <h2>Contact</h2>
+      <p>Feel free to drop me a line if you would like to collaborate on a project.</p>          
+      <p>In my spare time, I enjoy running, rock climbing, and walking a Dachund/Jack-russel mix.</p>
+      <p>Feel free to reach out if you'd like to collaborate on a project, app, or website.</p>
+      </div>
+      <a href=""><button class="button button-blue callToActionButton" >Send Message</button></a>
+    </div>
+  </div>
 </div>

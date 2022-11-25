@@ -8,10 +8,6 @@ const routes: Routes = [
       {
         path: '',
         loadChildren: () => import('../+routes/home/home.module').then(m => m.HomeModule),
-      },
-      {
-        path: 'asset',
-        loadChildren: () => import('../+routes/asset/asset.module').then(m => m.AssetModule)
       }
     ]
   }       

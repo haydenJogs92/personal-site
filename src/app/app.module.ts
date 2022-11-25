@@ -4,18 +4,19 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CoinccapService } from '../services/coincap/coinccap.service';
 import { SharedModule } from '../lib/shared/shared.module';
 import { GlobalInterceptor } from '../lib/global-interceptor';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from '../components/footer/footer.component';
+import { MenuBarComponent } from '../components/menu-bar/menu-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +31,6 @@ import { FooterComponent } from './footer/footer.component';
     })
   ],
   providers: [
-    CoinccapService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: GlobalInterceptor,
