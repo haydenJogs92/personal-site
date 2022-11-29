@@ -10,7 +10,6 @@ import { environment } from '../environments/environment';
 import { FooterComponent } from '../components/footer/footer.component';
 import { MenuBarComponent } from '../components/menu-bar/menu-bar.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

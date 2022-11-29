@@ -43,3 +43,16 @@
   color:black;
   text-decoration: underline;
 }
+
+.avatar {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+  border: 5px solid #47a5df;
+  margin: 0 auto;
+  background-image: url('../../assets/avatar-pic.jpg');
+  background-repeat: no-repeat;
+  margin-bottom:25px;
+   background-position: center;
+	/* width and height can be anything, as long as they're equal */
+}

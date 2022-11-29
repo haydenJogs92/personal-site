@@ -1,0 +1,51 @@
+
+.showWhenSmall {
+  display:none;
+}
+
+.hideWhenSmall {
+  display:block;
+}
+
+#mainNav {
+  padding-left:10px;
+  padding-right:10px;
+  margin-bottom:0px;
+  padding-top: 40px!important;
+}
+
+@media (max-width: 768px) {
+  .showWhenSmall {
+    display: block;
+  }
+
+  .hideWhenSmall {
+    display:none;
+  }
+
+  .adjustMarginTop {
+    margin-top:0px;
+  }
+
+  .navbar {
+    margin-bottom:0px;
+  }
+
+  #scrollContent {
+      width: calc(100% - 15px);
+  }
+
+  .imagePadding {
+    padding: 40px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .showWhenSmall {
+    display: none;
+  }
+  .hideWhenSmall {
+    display:block;
+  }
+
+}
