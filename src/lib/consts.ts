@@ -6,10 +6,10 @@ export class NavLink {
 export const navLinks: NavLink[] = [
   {
     label: 'Side Projects',
-    urlPath: '/side-projects'
+    urlPath: './side-projects'
   },
   {
     label: 'Contact',
-    urlPath: '/contact'
+    urlPath: './contact'
   }
 ];
