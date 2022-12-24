@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## View Project on Github Pages
 
 Project is running here:
-https://haydenjogs92.github.io/coin-ui/
+https://haydenjogs92.github.io/personal-site/
 
 ## Development server
 
