@@ -1,26 +1,10 @@
-<div id="mainContent" class="adjustMarginTop contentWrapper">
-  <div class="row">
-    <div class="mainPageContent textCenter" style="padding:50px 0;">
-      <h1 id="homePageh1">Hi, I'm Hayden.</h1>
-      <p>
-        <img id="profileImage" class="respImage" src="/assets/profile-pic.jpg" />
-      </p>
-      
-      <div style="text-align:left;">
-      <p>I'm a Champaign, IL based developer focused on web apps. You can see my recent work or follow me on <a href="{{gitHubUrl}}">GitHub</a> or <a href="{{linkedInUrl}}">LinkedIn</a>.</p>
-      <p>In my spare time, I enjoy running, rock climbing, and walking a Dachund/Jack-Russel mix.</p>
-      
-      <h2>Side Projects</h2>
-      <ng-container *ngFor="let project of projects">
-        <p><strong>{{project.title}}</strong>: {{project.description}} <br>View <a target="_blank" [href]="project.sourceUrl">live demo</a> or <a target="_blank" [href]="project.demoUrl">source code</a>.</p>
-        <a target="_blank" [href]="project.demoUrl"><img class="project-image respImage" [src]="project.image"></a>
-      </ng-container>
-      
-      <h2>Contact</h2>
-      <p>Feel free to drop me a line if you would like to collaborate on a project.</p>          
-      
-      </div>
-      <a target="_blank" href="mailto:brown.hayden14@gmail.com"><button class="button button-blue callToActionButton">Send Message</button></a>
-    </div>
-  </div>
+<h1 id="homePageh1" class="textCenter">Hi, I'm Hayden.</h1>
+<p>
+  <img id="profileImage" class="respImage" src="/assets/profile-pic.jpeg" />
+</p>
+
+<div>
+  <p>I'm a Champaign, IL based developer focused on web apps. You can see my recent work or follow me on <a href="{{gitHubUrl}}">GitHub</a> or <a href="{{linkedInUrl}}">LinkedIn</a>.</p>
+  <p>Most of my experience is with Angular applications, but increasingly I'm working with Java and Wolfram Language.</p>
+  <p>In my spare time, I enjoy running, rock climbing, and walking a Dachund/Jack-Russel mix.</p>
 </div>

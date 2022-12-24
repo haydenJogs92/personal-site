@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { navLinks, NavLink } from '../../lib/consts';
 
 @Component({
   selector: 'app-footer',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   year: Number;
+  navLinks: NavLink[] = navLinks;
   
   constructor() { }
 

@@ -1,21 +1,26 @@
-<div id="mainNav" class="navbar navbarTheme" > 
-    <div class="row">
-        <div class="col-3">
-          <nav>
-          <ul class="mainMenuLogo">
-            <li>
-              <strong><a class="colorWhite" href="/">Hayden Brown</a></strong>
-            </li>
-          </ul>
-          </nav>
+<div id="mainNav" class="navbar" > 
+    <div class="navInner">
+      <div>
+        <strong><a class="colorWhite" href="/">Hayden Brown</a></strong>
+      </div>
+      <div class="linkList hideWhenSmall">
+        <ng-container *ngFor="let navLink of navLinks">
+          <a [href]="navLink.urlPath">
+            {{navLink.label}}
+          </a>
+        </ng-container>
+      </div>
+      <div class="showWhenSmall">
+        <div class="dropdown">
+          Menu
+          <div class="dropdown-content">
+            <ng-container *ngFor="let navLink of navLinks">
+              <a [href]="navLink.urlPath">
+                {{navLink.label}}
+              </a>
+            </ng-container>
+          </div>
         </div>
-
-        <div class="col-9">
-          <nav class="standardMainCol">
-            <ul></ul>
-        </nav>
-        </div>
+      </div>
     </div>  
 </div>
-
-<div class="menuBottom"></div>

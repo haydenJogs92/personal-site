@@ -10,9 +10,12 @@
 <div style="margin:15px 0;text-align: center;">
   <footer>
     Hayden Brown | {{year}}<br>
-    <!--<a class="footerLink" href="/">Home</a>
-     &nbsp;&#183;&nbsp;
-    <a class="footerLink" href="/contact">Contact</a>  -->
+    <ng-container *ngFor="let navLink of navLinks; let last = last">
+      <a [href]="navLink.urlPath">{{navLink.label}}</a>
+      <ng-container *ngIf="!last">
+        &nbsp;&#183;&nbsp;
+      </ng-container>
+    </ng-container>
   </footer>
 </div>
   

@@ -1,10 +1,9 @@
-
 .showWhenSmall {
-  display:none;
+  display: none;
 }
 
 .hideWhenSmall {
-  display:block;
+  display: block;
 }
 
 #mainNav {
@@ -14,38 +13,63 @@
   padding-top: 40px!important;
 }
 
-@media (max-width: 768px) {
-  .showWhenSmall {
-    display: block;
-  }
+.navInner {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between
+}
 
-  .hideWhenSmall {
-    display:none;
-  }
-
-  .adjustMarginTop {
-    margin-top:0px;
-  }
-
-  .navbar {
-    margin-bottom:0px;
-  }
-
-  #scrollContent {
-      width: calc(100% - 15px);
-  }
-
-  .imagePadding {
-    padding: 40px 0px;
+.linkList {
+  a {
+    padding-right: 20px;
   }
 }
 
-@media (min-width: 768px) {
+$collapseMenuBreakpoint: "550px";
+
+@media (max-width: $collapseMenuBreakpoint) {
+  .showWhenSmall {
+    display: block;
+  }
+  .hideWhenSmall {
+    display:none;
+  }
+}
+
+@media (min-width: $collapseMenuBreakpoint) {
   .showWhenSmall {
     display: none;
   }
   .hideWhenSmall {
     display:block;
   }
+}
 
+/* Dropdown for smaller viewports */
+.dropdown {
+  position: relative;
+  &:hover {
+    .dropdown-content {
+      display: block;
+    }
+  }
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  &:hover {
+    background-color: #ddd;
+  }
 }
