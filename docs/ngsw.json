@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1655143039815,
-  "index": "https://haydenjogs92.github.io/coin-ui/index.html",
+  "timestamp": 1671892347114,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,17 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://haydenjogs92.github.io/coin-ui/460.bb7322431763fc78.js",
-        "https://haydenjogs92.github.io/coin-ui/614.ee68070b64e12e18.js",
-        "https://haydenjogs92.github.io/coin-ui/827.4b6bf689cdc06784.js",
-        "https://haydenjogs92.github.io/coin-ui/common.3764391717f5ebf7.js",
-        "https://haydenjogs92.github.io/coin-ui/favicon.ico",
-        "https://haydenjogs92.github.io/coin-ui/index.html",
-        "https://haydenjogs92.github.io/coin-ui/main.617ecf1ab8aac69e.js",
-        "https://haydenjogs92.github.io/coin-ui/manifest.webmanifest",
-        "https://haydenjogs92.github.io/coin-ui/polyfills.0488c1a415051e80.js",
-        "https://haydenjogs92.github.io/coin-ui/runtime.0f7cbf002a7a50cc.js",
-        "https://haydenjogs92.github.io/coin-ui/styles.ef46db3751d8e999.css"
+        "/142.70fcd0ad9959e62e.js",
+        "/750.2de1df73689e3f32.js",
+        "/880.d63879f22282aaf0.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.092ed94b43321356.js",
+        "/manifest.webmanifest",
+        "/polyfills.ce74259408c8bf3b.js",
+        "/runtime.a0cbb161868af889.js",
+        "/styles.eee6f61546d0c485.css"
       ],
       "patterns": []
     },
@@ -33,39 +32,36 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-128x128.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-144x144.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-152x152.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-192x192.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-384x384.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-512x512.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-72x72.png",
-        "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-96x96.png"
+        "/assets/avatar-pic.jpg",
+        "/assets/profile-pic.jpeg",
+        "/assets/profile-pic.jpg",
+        "/assets/projects/basic-angular-app.png",
+        "/assets/projects/coin-ui.png",
+        "/assets/projects/react-weather-app.png",
+        "/avatar-pic.162fc931c769f2ff.jpg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://haydenjogs92.github.io/coin-ui/460.bb7322431763fc78.js": "26d980cf255ab6b8284dfb0d7a0a8b2cec3470f7",
-    "https://haydenjogs92.github.io/coin-ui/614.ee68070b64e12e18.js": "aa9eda88ead5a88ed7d43509f381cc6d4ac4a1a5",
-    "https://haydenjogs92.github.io/coin-ui/827.4b6bf689cdc06784.js": "4bff6e25f86bacce3876c59e73938641d4dfc312",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://haydenjogs92.github.io/coin-ui/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://haydenjogs92.github.io/coin-ui/common.3764391717f5ebf7.js": "23ba50642a0ea4e25df0e591d377c25b72b57eb1",
-    "https://haydenjogs92.github.io/coin-ui/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://haydenjogs92.github.io/coin-ui/index.html": "6db11aeaeba6cfd3b303e985eabb61a3237f21f5",
-    "https://haydenjogs92.github.io/coin-ui/main.617ecf1ab8aac69e.js": "2a434b8b19194359682bf83db5f07b92b14cb9ef",
-    "https://haydenjogs92.github.io/coin-ui/manifest.webmanifest": "49f58f8d1a44fc95cd0de5f70fd072b34713dfa4",
-    "https://haydenjogs92.github.io/coin-ui/polyfills.0488c1a415051e80.js": "6e59829f2418d1536955a3c13789e52e5f3c2629",
-    "https://haydenjogs92.github.io/coin-ui/runtime.0f7cbf002a7a50cc.js": "182c51d36d5679dcd2fee7cbc2fedad51eda06c8",
-    "https://haydenjogs92.github.io/coin-ui/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/142.70fcd0ad9959e62e.js": "4d8d3866504f1fc53ac1f0738c33bd5f04a7400a",
+    "/750.2de1df73689e3f32.js": "c9e32e5f7a150f81311a2bf066069bad3683f673",
+    "/880.d63879f22282aaf0.js": "ae3eab4837071773502e7f4a98521411b7c0f816",
+    "/assets/avatar-pic.jpg": "f09714e3d3bd9b8bdf324198586d0c87c76de597",
+    "/assets/profile-pic.jpeg": "45738134b34d6bada04e83701e9e68db37976081",
+    "/assets/profile-pic.jpg": "f7fb7102e624995404387cf271bf418b2a10c454",
+    "/assets/projects/basic-angular-app.png": "b92a5e346ecb651f0c2ef910b1dd59bf85851a11",
+    "/assets/projects/coin-ui.png": "933e2f47759922d8c08a9008613083b7be11bea4",
+    "/assets/projects/react-weather-app.png": "aedf21f2ffdefdad162686dfd78198e504a2757c",
+    "/avatar-pic.162fc931c769f2ff.jpg": "f09714e3d3bd9b8bdf324198586d0c87c76de597",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "c67f068f8b491c4b4b1386f77d9d3c368c4ca888",
+    "/main.092ed94b43321356.js": "a77c833bdc28f8ddd9dfd896fbbf04d66e48a193",
+    "/manifest.webmanifest": "770709a3d89ad64bc8b60dc6572fe7a0cb21675b",
+    "/polyfills.ce74259408c8bf3b.js": "a6e137ac4d492c88e1118e9f1c2f5f086d86c334",
+    "/runtime.a0cbb161868af889.js": "e60ee36cae7a314b00f2adff9bc95db94cafb42a",
+    "/styles.eee6f61546d0c485.css": "8ae09bdb1ef97a45ce07e02746bb3bd3ab55dfd8"
   },
   "navigationUrls": [
     {
