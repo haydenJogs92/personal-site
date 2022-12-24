@@ -1,5 +1,5 @@
 <h2>Side Projects</h2>
   <ng-container *ngFor="let project of projects">
-    <p><strong>{{project.title}}</strong>: {{project.description}} <br>View <a target="_blank" [href]="project.sourceUrl">live demo</a> or <a target="_blank" [href]="project.demoUrl">source code</a>.</p>
+    <p><strong>{{project.title}}</strong>: {{project.description}} <br>View <a target="_blank" [href]="project.sourceUrl">source code</a> or <a target="_blank" [href]="project.demoUrl">live demo</a>.</p>
     <a target="_blank" [href]="project.demoUrl"><img class="project-image respImage" [src]="project.image"></a>
   </ng-container>
