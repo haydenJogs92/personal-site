@@ -16,6 +16,10 @@ const routes: Routes = [
       {
         path: 'side-projects',
         loadChildren: () => import('../+routes/side-projects/side-projects.module').then(m => m.SideProjectsModule),
+      },
+      {
+        path: 'resume',
+        loadChildren: () => import('../+routes/resume/resume.module').then(m => m.ResumeModule),
       }
     ]
   }       

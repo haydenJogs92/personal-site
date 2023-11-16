@@ -1,9 +1,13 @@
-<app-menu-bar></app-menu-bar>
+<app-menu-bar
+    *ngIf="!hideNavigation">
+</app-menu-bar>
 <div id="mainContent" class="contentWrapper">
   <div class="row">
-    <div class="mainPageContent" style="padding:50px 0;">
+    <div class="mainPageContent">
       <router-outlet></router-outlet>
     </div>
   </div>
 </div>
-<app-footer></app-footer>
+<app-footer
+    *ngIf="!hideNavigation">
+</app-footer>
